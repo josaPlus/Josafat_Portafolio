@@ -23,6 +23,7 @@
             <div class="col-12">
                 <p id="texto">Conociendo JS</p>
             </div>
+            <p id="nombrecompleto"></p>
         </div>
     </div>
 
@@ -34,6 +35,7 @@
 
         console.log("Mi variable:", numero);
 
+        /*
         function Saludar(){
             let miVariable = 20;
             let estado = true;
@@ -43,7 +45,15 @@
             let arregloBooleanos = [true, false, true, false];
         }
         Saludar();
+        */
         console.log(miVariable);
+       
+        let nombre = "Tony";
+        let apellido = " Stark";
+        let nombreCompleto = nombre + apellido;
+        console.log(nombreCompleto);
+        let nombrecompleto2 = document.getElementById('nombrecompleto');
+        nombrecompleto2.innerHTML = nombreCompleto;
 
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
