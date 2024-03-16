@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 5 template strings</title>
+</head>
+
+<body>
+    <h1 id="lista">Proyecto 5</h1>
+    <p>este es el proyecto</p>
+
+    <script>
+        let lista = document.getElementById('lista');
+        let texto = "Hola, soy josa";
+        console.log(texto);
+
+        console.log(`Hola, soy josa y este es un template string`);
+
+        let text = `cadena multilinea
+        con template string
+        en javascript`;
+
+        console.log(text);
+        let a = 5;
+        let b = 10;
+        console.log(`El resultado de la suma de ${a} + ${b} es ${a + b}
+        multuplica ${a * b} 
+        y divide ${a / b}`);
+
+
+        let persona = "josa";
+        let edad = 20;
+
+        function miFuncion(cadeas, personaX, edadX) {
+            let resultado = "";
+
+            // console.log(cadenas);
+            // console.log(cadeas[0]);
+            // edadX > 18 ? resultado = "mayor de edad" : resultado = "menor de edad";
+            // resultado = edadX > 18 ? "mayor de edad" : "menor de edad";s
+            return resultado;
+        }
+
+        //console.log(miFuncion("Hola, soy ", "josa", 18));
+
+        let resultado2 = miFuncion `Hola, soy ${persona} y tengo ${edad} años`;
+        console.log(resultado2);
+
+        let titulo = "ganadores Oscares";
+        let cantantes = ["Billie Eilish", "Adele", "Shakira", "Rihanna"];
+        let cadenaHTML = `<h1>${titulo}</h1>`;
+
+        cadenaHTML += `<ul>`;
+            for(let cantante of cantantes){
+                cadenaHTML += `<li>${cantante}</li>`;
+            }
+            cadenaHTML += `</ul>`;
+
+            lista.innerHTML = cadenaHTML;
+
+    </script>
+</body>
+
+</html>
