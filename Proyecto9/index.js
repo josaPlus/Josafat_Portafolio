@@ -56,7 +56,3 @@ let alumno = {
     }
 };
 console.log(alumno.nombreCompleto());
-
-//moments.js libreria para calendario en js
-//para clase se usa . antes de queryselector
-//para id se usa # antes de queryselector
