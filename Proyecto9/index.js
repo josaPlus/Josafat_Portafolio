@@ -56,3 +56,4 @@ let alumno = {
     }
 };
 console.log(alumno.nombreCompleto());
+
