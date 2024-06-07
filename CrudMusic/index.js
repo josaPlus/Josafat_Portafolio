@@ -12,15 +12,15 @@ let artista = document.getElementById("artista");
 let tareas = [
   {
     imagen: "https://i.scdn.co/image/ab67616d0000b273383811a9b3081023c612fb7b",
-    video: "Videos/Musica1.mp4",
-    audio: "Audio/Audio1.mp3",
+    video: "Musica1.mp4",
+    audio: "Audio1.mp3",
     nombreCancion: "I dont want to set the world on fire",
     artista: "The ink spots",
   },
   {
     imagen: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUsNKecFRIsj0pNlAy2fFYtruNJRbNQD9UXphz0hLJcg&s",
-    video: "Videos/Musica2.mp4",
-    audio: "Audio/Audio2.mp3",
+    video: "Musica2.mp4",
+    audio: "Audio2.mp3",
     nombreCancion: "Happy nation",
     artista: " Ace of Base",
   }
